@@ -1,0 +1,148 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    font-family: 'Commissioner', sans-serif;
+    margin: 0px;
+}
+span{
+    color: #2ECC40;
+}
+.blue{
+    color: #0074D9;
+}
+.yellow{
+    color: #FFDC00;
+}
+.red{
+    color: #FF4136;
+}
+#nav-bar{
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    overflow: hidden;
+    z-index:1;
+}
+.nav-link{
+    padding-bottom: 100px;
+    padding-right: 20px;
+    color: white;
+    text-decoration: none;
+}
+#header-img{
+    width: 200px;
+    height: 50px;
+    text-align: left;
+}
+.info-container{
+    text-align: center;
+    margin-top: 100px;
+}
+ul{
+    list-style-type: none;
+}
+#commercial{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform:translateX(-50%);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+}
+.cube{
+    width: 100px;
+    height: 100px;
+    transition: transform .2s; 
+}
+.cube:hover{
+    transform: scale(1.2);
+}
+.container div{
+    border: 1px #cccccc solid;
+    padding:10px;
+    position: relative;
+    top: 35em;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.buy{
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: white;
+    background-color:  #2ECC40;
+    border: none;
+    border-radius: 2px;
+    opacity: .7;
+    cursor: pointer;
+}
+.buy:hover{
+    transition: .5s;
+    opacity: 1;
+}
+.form-container{
+    position: absolute;
+    margin-left: 24%;
+    margin-top: 600px;
+}
+legend{
+    text-align: center;
+    font-size: 25px;
+}
+input{
+    padding: 10px;
+}
+#submit{
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 4px;
+    border: none;
+    background-color: #2ECC40;
+    color: white;
+}
+form{
+    display: inline-block;
+}
+footer{
+    margin-top: 1000px;
+    background-color: black;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+fieldset{
+    text-align: center;
+    padding: 100px 300px;
+}
+.foot-link{
+    color: white;
+    text-decoration: none;
+    padding: 0px 20px;
+}
+@media (max-width: 600px) {
+    #commercial{
+        top: 65%;
+    }
+    iframe{
+        width: 300px;
+        height: 500px;
+    }
+    .container div{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}

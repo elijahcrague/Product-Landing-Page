@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@200&display=swap" rel="stylesheet">
+    <title>Product Landing Page</title>
+</head>
+<body>
+    <!--Navbar-->
+    <header id="header">
+        <nav id="nav-bar">
+            <img id="header-img" src="https://www.rubiks.com/media/logo/websites/3/logo.png" alt="Rubiks">
+            <a class="nav-link" href="#container"><span class="blue">Buy</span></a>
+            <a class="nav-link" href="#form"><span class="yellow">JoinUs</span></a>
+            <a class="nav-link" href="#footer"><span class="red">Terms</span></a>
+        </nav>
+    </header>
+    <section id="info">
+        <div class="info-container">
+            <ul>
+                <h2><span class="blue">Fun</span></h2><li>Our best play testers have spent countless hours making sure our rubiks cubes are as fun as possible!</li>
+                <h2><span class="yellow">Challenge</span></h2><li>Rubiks cubes are the most challenging toy on the market and will definitely tease your brain!</li>
+                <h2><span class="red">Reliability</span></h2><li>The quality of a Rubik's brand rubiks cube is unmatched!</li>
+            </ul>
+        </div>
+    </section>
+    <!--Video-->
+    <section id="commercial">
+        <iframe id="video" width="700" height="450" src="https://www.youtube.com/embed/929xPm34ArI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <!--Flexboxes-->
+    <div class="container" id="container">
+        <div class="box">
+            <h3>2x2 Cube</h3>
+            <p>Cost: <span>$</span>5.00</p>
+            <img class="cube" src="https://www.rubiks.com/media/catalog/product/cache/9c57e2fe71f8a58f6afba681a0a15dd4/r/u/rubik-2x2-cube-solved.jpg" alt=""><br>
+            <button class="buy">Purchase</button>
+        </div>
+        <div class="box">
+            <h3>3x3 Cube</h3>
+            <p>Cost: <span>$</span>10.00</p>
+            <img class="cube" src="https://www.rubiks.com/media/catalog/product/cache/9c57e2fe71f8a58f6afba681a0a15dd4/r/u/rubiks-retro-3x3-cube-solved-3_1.jpg" alt=""><br>
+            <button class="buy">Purchase</button>
+        </div>
+        <div class="box">
+            <h3>4x4 Cube</h3>
+            <p>Cost: <span>$</span>15.00</p>
+            <img class="cube" src="https://www.rubiks.com/media/catalog/product/cache/9c57e2fe71f8a58f6afba681a0a15dd4/r/u/rubik-4x4-solved.jpg" alt=""><br>
+            <button class="buy">Purchase</button>
+        </div>
+    </div>
+        <!--Form-->
+        <form id="form" action="POST" method="https://www.freecodecamp.com/email-submit">
+            <div class="form-container">
+        <fieldset><legend><h4>Sign Up!</h4></legend>
+            <div>
+            <input type="email" name="email" id="email" placeholder="Email" required>
+        </div>
+            <div>
+            <input type="submit" name="submit" id="submit">
+        </div>
+        </fieldset>
+        </div>
+        </form>
+    <div class="footer-container">
+        <footer id="footer">
+            <a class="foot-link" href="#">Terms</a>
+            <a class="foot-link" href="#">Safety</a>
+            <a class="foot-link" href="#">Customer Support</a>
+        </footer>
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
